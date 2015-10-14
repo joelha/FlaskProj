@@ -9,3 +9,7 @@ def settings():
 @mod.route('/settings-detail')
 def detail():
 	return render_template('settings/settings-detail.html')
+
+@mod.route('/forecast')
+def forecast():
+	return render_template('settings/forecast.html')
