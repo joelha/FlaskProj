@@ -1,10 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
+<script src="static/js/forecast.js"></script>
 <div class="container">
+
 	<h1>Forecast</h1>
-	<p>para</p>
-	<ul>
-  		<li><a href="/settings-detail">Settings-detail</a></li>
-	</ul>
+    <h2>Pick station!</h2>
+
+    <select id="station-choice" onchange="changedStation()">
+	  <option selected value="base">None</option>
+	</select>
+	<select id="period-choice" onchange="changedPeriod()">
+	  <option selected value="base">None</option>
+	</select>
+
+    <div class="forecast">
+    	<h1>Temperature: <b id="tempText">-</b></h1>
+    </div>
+
 </div>
 {% endblock %}
