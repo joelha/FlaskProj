@@ -15,18 +15,27 @@ nav {
 }
 
 nav ul {
-	padding: 15px 0;
+	padding-top: 10;
+	padding-bottom: 10;
 }
 
 nav li {
 	display: inline;
 	list-style-type: none;
-	padding-right: 20px;
+	padding-right: 20;
 	font-size: 25px;
 }
 
 .container {
 	width: 940px;
-	background-color: #000;
 }
 
+#content {
+	height: 600px;
+	background-color: #aaa;
+}
+
+footer {
+	height: 100px;
+	background-color: #000;
+}

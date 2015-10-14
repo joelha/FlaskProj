@@ -8,3 +8,6 @@ app.register_blueprint(homeModule)
 
 from settings.views import mod as settingsModule
 app.register_blueprint(settingsModule)
+
+from about.views import mod as aboutModule
+app.register_blueprint(aboutModule)
