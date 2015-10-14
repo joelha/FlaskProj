@@ -1,0 +1,32 @@
+html, body {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	background: #3D352A;
+}
+
+header {
+	margin: 0 auto;
+}
+
+nav {
+	background-color: #000;
+	text-align: center;
+}
+
+nav ul {
+	padding: 15px 0;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	font-size: 25px;
+}
+
+.container {
+	width: 940px;
+	background-color: #000;
+}
+
