@@ -1,5 +1,4 @@
 html, body {
-	color: #fff;
 	margin: 0;
 	padding: 0;
 	background: #3D352A;
@@ -7,11 +6,13 @@ html, body {
 
 header {
 	margin: 0 auto;
+	color: #fff;
 }
 
 nav {
 	background-color: #000;
 	text-align: center;
+	color: #fff;
 }
 
 nav ul {
@@ -24,6 +25,10 @@ nav li {
 	list-style-type: none;
 	padding-right: 20;
 	font-size: 25px;
+}
+
+form {
+	color: #000;
 }
 
 .container {

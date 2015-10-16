@@ -2,6 +2,12 @@
 {% block content %}
 <div class="container">
 	<h1>Home</h1>
-	<p>para</p>
+	<p>
+	{% if current_user.is_authenticated %}
+		{{ current_user.name }}
+	{% endif %}
+	</p>
+	<a href="/logout">Logout</a>
+	<a href="/login">Login</a>
 </div>
 {% endblock %}
